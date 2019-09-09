@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<title>Eduarda Machado</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css1.css">
+<link rel="stylesheet" href="css.css">
+<link rel="shortcut icon" href="favicon.png" />
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js" charset="UTF-8"></script><style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
+</style>
+<body class="w3-light-grey">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-purple w3-animate-right w3-top w3-text-white w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+  <a href="javascript:void()" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">FECHAR ABA</a> 
+  <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">FOTOS</a> 
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">SOBRE</a>
+  <center>
+<video width="210" height="500" controls>
+  <source src="movie.mp4" type="video/mp4">Video</video>  
+</center>
+  </nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-purple w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">EDUARDA MACHADO</span>
+  <a href="https://www.instagram.com/olivdudis/">
+  <img src="insta.png" alt="Instagram" style="width:42px;height:42px;border:0; margin-left:0px; float: left">
+  
+  
+</a>
+<img src="topo.png" style="width:50px;height:40px;margin-left:100px;alt="Waiting for the bus in the desert">
+
+<img src="topo2.png" style="width:100px;height:50px;margin-left:40px;alt="Waiting for the bus in the desert">
+
+<img src="topo3.png" style="width:70px;height:50px;margin-left:40px;alt="Waiting for the bus in the desert">
+
+<img src="topo6.png" style="width:70px;height:50px;margin-left:40px;alt="Waiting for the bus in the desert">
+
+<img src="topo7.png" style="width:80px;height:50px;margin-left:40px;alt="Waiting for the bus in the desert">
+
+<img src="topo4.png" style="width:80px;height:50px;margin-left:40px;alt="Waiting for the bus in the desert">
+
+<img src="topo5.png" style="width:80px;height:50px;margin-left:40px;alt="Waiting for the bus in the desert">
+
+  <a href="javascript:void(0)" class="w3-right w3-button w3-purple" onclick="w3_open()">&#9776;</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content" style="max-width:1600px;margin-top:83px">
+  
+  <!-- Photo grid -->
+  <div class="w3-row w3-grayscale-min">
+    <div class="w3-quarter">
+      <img src="1.jpg" style="width:100%" onclick="onClick(this)" alt="Canoeing again">
+      <img src="2.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
+      <img src="3.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+	  <img src="4.jpg" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
+   </div>
+    
+   <div class="w3-quarter">
+      <img src="5.jpg" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
+      <img src="6.jpg" style="width:100%" onclick="onClick(this)" alt="What a beautiful scenery this sunset">
+      <img src="7.jpg" style="width:100%" onclick="onClick(this)" alt="Waiting for the bus in the desert">
+	  <img src="17.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+	  <img src="18.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+    </div>
+    
+    <div class="w3-quarter">
+      <img src="9.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+	  <img src="8.jpg" style="width:100%" onclick="onClick(this)" alt="Nature again.. At its finest!">
+	  <img src="10.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+	  <img src="11.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+	   <img src="12.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+   
+    </div>
+
+    <div class="w3-quarter">
+      <img src="13.jpg" style="width:100%" onclick="onClick(this)" alt="A boy surrounded by beautiful nature">
+      <img src="14.jpg" style="width:100%" onclick="onClick(this)" alt="A girl, and a train passing">
+      <img src="15.jpg" style="width:100%" onclick="onClick(this)" alt="Quiet day at the beach. Cold, but beautiful">
+	  <img src="16.jpg" style="width:100%" onclick="onClick(this)" alt="The Beach. Me. Alone. Beautiful">
+	
+    </div>
+  </div>
+
+  
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">&times;</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+  <hr class="w3-opacity">
+  <!-- About section -->
+  <div class="w3-container w3-dark-grey w3-center w3-text-light-grey w3-padding-32" id="about">
+  <a href="http://weavesilk.com"target="_blank">
+  <img src="silk.png" alt="Silk" style="width:42px;height:42px;border:0;margin-left:300px;float: left;border-radius: 12px;">
+  </a>
+  <a href="https://neave.com/imagination/"target="_blank">
+  <img src="icon400.jpg" alt="Imagination" style="width:42px;height:42px;border:0;margin-left:60px;float: left;border-radius: 12px;">
+  </a>
+  <a href="https://neave.com/swarm/"target="_blank">
+  <img src="icon400.png" alt="Swarm" style="width:42px;height:42px;border:0;margin-left:60px;float: left;border-radius: 12px;">
+  </a>
+  <a href="https://neave.com/pixel-dust/"target="_blank">
+  <img src="icon2.png" alt="Picel Dust" style="width:42px;height:42px;border:0;margin-left:60px;float: left;border-radius: 12px;">
+  </a>
+  <a href="https://neave.com/voronoi/"target="_blank">
+  <img src="icon1.png" alt="Voronoi" style="width:42px;height:42px;border:0;margin-left:60px;float: left;border-radius: 12px;">
+  </a>
+  <a href="https://neave.com/wobble/"target="_blank">
+  <img src="icon3.png" alt="Wobble" style="width:42px;height:42px;border:0;margin-left:60px;float: left;border-radius: 12px;">
+  </a>
+   <a href="https://playtictactoe.org"target="_blank">
+  <img src="icon200.png" alt="Tic Tac Toe" style="width:42px;height:42px;border:0;margin-left:60px;float: left;border-radius: 12px;">
+  </a>
+  <a href="https://playsnake.org"target="_blank">
+  <img src="icon500.png" alt="Snake" style="width:42px;height:42px;border:0;margin-left:60px;float: left;border-radius: 12px;">
+  </a>
+  </br>
+  </br>
+  <br>
+    <h4><b>SOBRE</b></h4>
+    <div class="w3-content w3-justify" style="max-width:600px">
+      <h3>Eduarda Machado</h3>
+	  <h4>15 anos.</h4> 
+
+      <p>A felicidade pode ser encontrada mesmo nas horas mais difíceis, se você lembrar de acender a luz.<b><i>-Harry Potter.</b></i></p>
+	  <p>Não vale a pena viver sonhando e se esquecer de viver.<b><i>-Harry Potter.</i></b></p>
+	  <p>Pode se encontrar a felicidade mesmo nas horas mais sombrias, se a pessoa se lembrar de acender a luz. <b><i>-Harry Potter.</b></i></p>
+
+      <hr class="w3-opacity">
+	  <div class="w3-purple w3-center w3-padding-24"><p>Feliz Aniversário Duda , Minha Irmã Incrível! Como o tempo voa, Vivia no meu colo e hoje já é uma adolescente! 15 anos é um aniversário muito especial, lembre-se que o tempo voa! Então aproveita minha linda, sem arrependimentos, sem medo e com muito amor! O mundo é seu! Te amo muito! <b><i>Ass: Theus.</i></b></p>
+ </div>
+ 
+	  <hr class="w3-opacity">
+  <div class="w3-dark-grey w3-center w3-padding-24">Powered by <a href="https://www.instagram.com/vivereofficial/" title="Matheus Machado" target="_blank" class="w3-hover-opacity">Matheus Machado</a>
+ </div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>
